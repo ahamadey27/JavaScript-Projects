@@ -1,7 +1,7 @@
 function coercion() {
-    var num = 10 == 10; 
-    document.getElementById("doc").innerHTML = console.log(num); 
+    x = 15 > 10;
+    y = 24 < 5;
+    document.getElementById("doc").innerHTML = document.write(x || y); 
 }
  
 
- c
