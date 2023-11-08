@@ -1,10 +1,14 @@
-function Age_Function() {
-    Age = document.getElementById("Age").value;
-    if (Age >= 21) {
-        Booze = "You can drink!";
+function Time_Function() {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time < 12 == Time > 0) {
+        Reply = "It's morning";
+    }
+    else if (Time >= 12 == Time < 18) {
+        Reply = "It's the afternoon"; 
     }
     else {
-        Booze = "Wait until you're 21!";
+        Reply = "It's evening";
     }
-    document.getElementById("How_old_are_you?").innerHTML = Booze;
+    document.getElementById("Time_of_day").innerHTML = Reply;
 }
