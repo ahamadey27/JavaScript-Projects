@@ -1,4 +1,4 @@
-function to_Fixed() {
-    X = 243.4567; 
-    document.getElementById("fixed").innerHTML = X.toFixed(); 
+function value_Of() {
+    var X = "oi oi oi oi!"; 
+    document.getElementById("oi").innerHTML = X.valueOf(); 
 }
