@@ -1,5 +1,5 @@
-function slice_Method() {
-    var Sentence1 = "1234567890123456789012345678901";
-    var Section1 = Sentence1.slice(12,16);
-    document.getElementById("Slice").innerHTML = Section1; 
+function to_Upper_Case() {
+    const str = "we are going to become upper case" 
+    const toUpper = str.toUpperCase(); 
+    document.getElementById("Upper").innerHTML = toUpper; 
 }
