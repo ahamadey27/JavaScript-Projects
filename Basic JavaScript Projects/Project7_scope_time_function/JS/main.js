@@ -1,5 +1,5 @@
-var x = 20;
 function numbers_1() {
+    var x = 20;
     document.write(10 + x + "<br>")
 } 
 function numbers_2() {
