@@ -1,8 +1,5 @@
-function numbers_1() {
-    var x = 20;
-    document.write(10 + x + "<br>")
-} 
-function numbers_2() {
-    document.write(50 + x);
-}
-console.log(numbers_1(), numbers_2()); 
+function get_Date() {
+    if (new Date().getHours(22) < 18) {
+        document.getElementById("Greeting").innerHTML = "How are you Today?";
+    }
+    }
