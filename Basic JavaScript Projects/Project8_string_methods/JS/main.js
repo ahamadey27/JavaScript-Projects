@@ -1,4 +1,4 @@
-function number_Strings() {
-    var Y = 243423425
-    document.getElementById("numbers_to_string").innerHTML = Y.toPrecision(10);  
+function to_Fixed() {
+    X = 243.4567; 
+    document.getElementById("fixed").innerHTML = X.toFixed(); 
 }
