@@ -1,9 +1,5 @@
-function call_Loop() {
-    var Digit = "";
-    var X = 2;
-    while (X < 22) {
-        Digit += "<br>" + X;
-        X++;
-    }
-    document.getElementById("Loop").innerHTML = Digit; 
+function length_Property() {
+    X = "Hello this is a sentance"
+    var str = X.length;
+    document.getElementById("StringLength").innerHTML = str; 
 }
