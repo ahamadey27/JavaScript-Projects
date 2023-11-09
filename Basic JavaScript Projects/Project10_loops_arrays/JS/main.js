@@ -1,12 +1,7 @@
-function array_Function() {
-    var Game_State = [];
-    Game_State[0] = "still";
-    Game_State[1] = "walking";
-    Game_State[2] = "fast walking"; 
-    Game_State[3] = "running"; 
-    Game_State[4] = "dead";
-    document.getElementById("Array").innerHTML = "In the end of the game, the character is " + Game_State[4] + "."; 
-
+function constant_Function() {
+    const computer = { type: "Desktop", brand: "Mac", color: "gray" }; 
+    computer.price = "1000"; 
+    computer.color = "pink"; 
+    document.getElementById("Constant").innerHTML = "The color of the " +
+        computer.type + " is " + computer.color + "."; 
 }
-
-//Index is array number and value is what the array equals
