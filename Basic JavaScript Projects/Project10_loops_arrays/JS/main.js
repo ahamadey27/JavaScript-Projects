@@ -1,14 +1,6 @@
-let guitar = {
-    make: "Fender ",  //USE COMAS and COLONS HERE INSEAD OF SEMICOLONS EQUALS SIGNS
-    model: "Jazzmaster ", 
-    year: "1990 ", 
-    color: "Sunburst ", 
-    description: function () {
-        return "This guitar is a " + this.make + this.model +
-            this.year + this.color;
-    }  
+let text = "";
+for (let i = 0; i < 10; i++) {
+    if (i === 3) { continue; }
+    text += "The number is " + i + "<br>";
 }
-function displayGuitarInfo() {
-    var info = guitar.description();
-    document.getElementById("guitar_info").innerHTML = info;
-}
+document.getElementById("continueDemo").innerHTML = text;
