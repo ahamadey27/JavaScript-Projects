@@ -1,9 +1,14 @@
-function greet(name) {
-    return "Hello, " + name + "!";
+let guitar = {
+    make: "Fender ",  //USE COMAS and COLONS HERE INSEAD OF SEMICOLONS EQUALS SIGNS
+    model: "Jazzmaster ", 
+    year: "1990 ", 
+    color: "Sunburst ", 
+    description: function () {
+        return "This guitar is a " + this.make + this.model +
+            this.year + this.color;
+    }  
 }
-
-function displayGreeting() {
-    var name = "John"; // You can set the name here or get it from user input
-    var greeting = greet(name);
-    document.getElementById("return").innerHTML = greeting;
+function displayGuitarInfo() {
+    var info = guitar.description();
+    document.getElementById("guitar_info").innerHTML = info;
 }
