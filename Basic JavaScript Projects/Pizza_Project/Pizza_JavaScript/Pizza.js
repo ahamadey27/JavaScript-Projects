@@ -61,3 +61,10 @@ function getTopping(runningTotal, text1) {
     document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$" + runningTotal + ".00" + "</strong></h3>";
 };
 
+function validateForm() {
+    let x = document.forms["phone"]["phoneNumber"].value;
+    if (x == "") {
+        alert("Please give us your phone number");
+        return false;
+    }
+}
